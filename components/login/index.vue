@@ -49,13 +49,6 @@ async function onSubmit(form) {
         :field-config="loginFieldConfig"
         @submit="onSubmit"
       >
-        <Alert v-if="previewMode">
-          <AlertCircle class="w-4 h-4" />
-          <AlertTitle>Tips</AlertTitle>
-          <AlertDescription>
-            The site token for preview mode is <code class="font-mono text-green-500">SinkCool</code> .
-          </AlertDescription>
-        </Alert>
         <Button class="w-full">
           Login
         </Button>
