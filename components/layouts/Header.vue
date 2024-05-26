@@ -21,11 +21,11 @@ const showMenu = ref(false)
             >
               <img
                 src="/sink.png"
-                alt="Sink"
+                alt="Pin"
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">Sink</span>
+            <span class="mx-2">Pin</span>
           </a>
         </div>
 
@@ -47,7 +47,7 @@ const showMenu = ref(false)
               >
                 <img
                   src="/sink.png"
-                  alt="Sink"
+                  alt="Pin"
                   class="w-full h-full rounded-full"
                 >
               </span>
