@@ -13,7 +13,7 @@ onMounted(() => {
       <a
         href="/"
         class="text-xl font-black leading-none text-gray-900 select-none logo"
-      >Sink</a>
+      >Pin</a>
       <a
         class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
         href="https://pin.ci"
