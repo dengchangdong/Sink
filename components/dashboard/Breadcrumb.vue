@@ -14,7 +14,7 @@ defineProps({
     <BreadcrumbList>
       <BreadcrumbItem>
         <BreadcrumbLink href="/">
-          Sink
+          Pin
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator />
