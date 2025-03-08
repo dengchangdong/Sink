@@ -1,8 +1,7 @@
 <script setup>
 import heroImg from '@/assets/images/hero.svg?raw'
-import { AreaChart } from 'lucide-vue-next'
 
-const { title, description, github } = useAppConfig()
+const { title, description } = useAppConfig()
 </script>
 
 <template>
@@ -18,20 +17,6 @@ const { title, description, github } = useAppConfig()
       <p class="max-w-xl mt-4 text-lg text-slate-600">
         {{ description }}
       </p>
-      <div class="flex flex-col gap-3 mt-6 sm:flex-row">
-        <HomeLink
-          href="/dashboard"
-          target="_blank"
-          title="Dashboard"
-          class="flex items-center justify-center gap-1"
-          rel="noopener"
-        >
-          <AreaChart
-            class="w-5 h-5"
-          />
-          Dashboard
-        </HomeLink>
-      </div>
     </div>
     <div class="hidden py-6 md:block">
       <div
